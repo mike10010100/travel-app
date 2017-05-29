@@ -7,6 +7,6 @@ setup(
 	'flask',
 	'zappa',
 	'Flask-SQLAlchemy',
-	'googlemaps'
+	'geopy'
 	],
 )

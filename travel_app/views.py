@@ -1,9 +1,9 @@
 from .travel_app import app
+from flask import request
+from geopy.geocoders import Nominatim
 
 @app.route('/')
 def index():
-    return 'Hello World!'
-
-@app.route('/hello')
-def hello():
-	return 'Howdy there!'
+	geolocator = Nominatim()
+	location = geolocator.geocode(request.args.get('location1'))
+	return location.address
