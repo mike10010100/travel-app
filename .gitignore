@@ -1,2 +1,4 @@
 .venv
 .DS_Store
+travel_app.egg-info
+travel_app/__pycache__
