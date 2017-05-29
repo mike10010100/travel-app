@@ -1,3 +1,5 @@
 zappa
 flask
+Flask-SQLAlchemy
 googlemaps
+psycopg2
