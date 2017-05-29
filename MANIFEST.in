@@ -1,0 +1,2 @@
+graft travel_app/templates
+graft travel_app/static
